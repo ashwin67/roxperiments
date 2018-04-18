@@ -1,0 +1,5 @@
+<launch>
+  <!-- turtlebot3_round_key already has its own built in velocity smoother -->
+  <node pkg="turtlebot3_round" type="turtlebot3_round.py" name="turtlebot3_round_keyboard"  output="screen">
+  </node>
+</launch>
